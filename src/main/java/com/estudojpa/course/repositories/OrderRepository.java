@@ -1,7 +1,7 @@
 package com.estudojpa.course.repositories;
 
-import com.estudojpa.course.entities.User;
+import com.estudojpa.course.entities.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User,Long> {
+public interface OrderRepository extends JpaRepository<Order,Long> {
 }
